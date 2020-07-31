@@ -1,0 +1,213 @@
+
+/* DEFAULTS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Helvetica;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("pic-1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+/* FOR BIG SCREENS */
+
+
+
+
+@media only screen and (min-width:480px)
+{
+
+/* NAV */
+nav{
+    padding-bottom: 60px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+
+  nav ul{
+      list-style-type:none;
+      margin-left: 10px;
+  }
+
+  nav li{
+      float: left;
+      padding: 16px 16px;
+      
+      
+  }
+
+.right
+  {
+      float: right;
+      font-size: 16px;
+  }
+
+  nav li a{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 100;
+      font-variant: small-caps;
+      
+  }
+
+  nav li a:hover{
+      color: tomato;
+  }
+
+
+/* header */
+
+section{   
+     margin-top: 145px;
+     padding-bottom: 200px;
+ }
+
+
+.container-2 h1{
+    color: #ffffff;
+    font-size: 50px;
+ text-align: center;
+ font-weight: 500;
+ font-variant: small-caps;
+ 
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    color:white;
+    border-radius: 20%;
+    padding: 10px 14px;
+    font-size: 14px;
+    background-color:transparent;
+}
+
+button:hover{
+    border-color: tomato;
+}
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILR PHONES */
+@media only screen and (max-width:480px)
+{
+
+/* NAV */
+nav{
+    padding-bottom: 60px;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+
+
+  nav ul{
+      list-style-type:none;
+      margin-left: 10px;
+  }
+
+  nav li{
+      float: left;
+      padding: 16px 16px;
+      
+      
+  }
+
+.right
+  {
+      float: right;
+      font-size: 16px;
+  }
+
+  nav li a{
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 100;
+      font-variant: small-caps;
+      
+  }
+
+  nav li a:hover{
+      color: tomato;
+      
+  }
+
+  .left{
+      display: none;
+  }
+
+
+/* header */
+
+section{   
+     margin-top: 145px;
+     padding-bottom: 200px;
+ }
+
+
+.container-2 h1{
+    color: #ffffff;
+    font-size: 50px;
+ text-align: center;
+ font-weight: 500;
+ font-variant: small-caps;
+ 
+}
+
+.button{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button{
+    color:white;
+    border-radius: 20%;
+    padding: 10px 14px;
+    font-size: 14px;
+    background-color:transparent;
+}
+
+button:hover{
+    border-color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
